@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace SetlistFmApi.SearchResults
 {
-    public class SearchResultsList<T> : List<T>
+  public class SearchResultsList<T> : List<T>
     {
         public int Total { get; set; }
 

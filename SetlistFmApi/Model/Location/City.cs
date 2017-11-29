@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace SetlistFmApi.Model.Location
+﻿namespace SetlistFmApi.Model.Location
 {
-    public class City
+  public class City
     {
         public string StateCode { get; set; }
 

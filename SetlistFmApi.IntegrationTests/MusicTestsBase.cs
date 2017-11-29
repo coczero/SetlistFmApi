@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using SetlistFmApi.SearchOptions.Music;
 using Xunit;
 
 namespace SetlistFmApi.IntegrationTests
 {
-    public abstract class MusicTestsBase : IntegrationTestBase
+  public abstract class MusicTestsBase : IntegrationTestBase
     {
         [Fact]
         public void FindArtists_ByName_CanFindArtist()

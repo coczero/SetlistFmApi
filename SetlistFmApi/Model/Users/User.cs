@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace SetlistFmApi.Model.Users
+﻿namespace SetlistFmApi.Model.Users
 {
-    public class User
+  public class User
     {
         public string Flickr { get; set; }
 

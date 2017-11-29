@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using RestSharp.Deserializers;
+﻿using RestSharp.Deserializers;
 using SetlistFmApi.Deserialization.Xml;
 using RestSharp;
 

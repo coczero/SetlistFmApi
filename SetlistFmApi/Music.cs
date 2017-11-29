@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using RestSharp;
-using SetlistFmApi.Model;
+﻿using RestSharp;
 using SetlistFmApi.Model.Music;
 using SetlistFmApi.SearchOptions.Music;
 using SetlistFmApi.SearchResults.Music;
 
 namespace SetlistFmApi
 {
-    public partial class SetlistFmApi
+  public partial class SetlistFmApi
     {
 #if (!__ANDROID__ && !SILVERLIGHT && !WINDOWS_PHONE)
         public ArtistSearchResult FindArtists(ArtistSearchOptions options)

@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using RestSharp.Deserializers;
-
-namespace SetlistFmApi.Model.Music
+﻿namespace SetlistFmApi.Model.Music
 {
-    public class CoverInfo
+  public class CoverInfo
     {
         public string SortName { get; set; }
 

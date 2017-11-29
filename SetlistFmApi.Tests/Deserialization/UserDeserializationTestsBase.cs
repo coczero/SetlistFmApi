@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Xunit;
+﻿using Xunit;
 using SetlistFmApi.Model.Users;
 
 namespace SetlistFmApi.Tests.Deserialization
 {
-    public abstract class UserDeserializationTestsBase : DeserializationTestBase
+  public abstract class UserDeserializationTestsBase : DeserializationTestBase
     {
         [Fact]
         public void Can_Deserialize_User()

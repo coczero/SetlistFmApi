@@ -1,15 +1,13 @@
 ﻿using System;
 using System.IO;
-using System.Xml.Linq;
 using RestSharp;
 using RestSharp.Deserializers;
-using SetlistFmApi.Deserialization;
 using SetlistFmApi.Deserialization.Xml;
 using SetlistFmApi.Deserialization.Json;
 
 namespace SetlistFmApi.Tests.Deserialization
 {
-    public abstract class DeserializationTestBase
+  public abstract class DeserializationTestBase
     {
         private readonly string _sampleDataPath = Path.Combine(Environment.CurrentDirectory, "Deserialization\\SampleData");
 

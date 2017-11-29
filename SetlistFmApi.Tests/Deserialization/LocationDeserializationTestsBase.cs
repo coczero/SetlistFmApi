@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using SetlistFmApi.Model;
+﻿using System.Linq;
 using SetlistFmApi.Model.Location;
 using SetlistFmApi.SearchResults.Location;
 using Xunit;
 
 namespace SetlistFmApi.Tests.Deserialization
 {
-    public abstract class LocationDeserializationTestsBase : DeserializationTestBase
+  public abstract class LocationDeserializationTestsBase : DeserializationTestBase
     {
         [Fact]
         public void Can_Deserialize_City()

@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using SetlistFmApi.Model.Location;
 using SetlistFmApi.SearchOptions.Location;
 using SetlistFmApi.SearchResults.Location;
@@ -9,7 +6,7 @@ using SetlistFmApi.SearchResults.Music;
 
 namespace SetlistFmApi
 {
-    public partial class SetlistFmApi
+  public partial class SetlistFmApi
     {
         public void FindCityAsync(string cityId, Action<City> callback)
         {

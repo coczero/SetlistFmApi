@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using SetlistFmApi.Model.Users;
 using SetlistFmApi.SearchResults.Music;
 using SetlistFmApi.SearchOptions.Users;
 
 namespace SetlistFmApi
 {
-    public partial class SetlistFmApi
+  public partial class SetlistFmApi
     {
         public void FindUserAsync(string userId, Action<User> callback)
         {

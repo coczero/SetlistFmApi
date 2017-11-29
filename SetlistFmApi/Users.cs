@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using SetlistFmApi.Model.Users;
+﻿using SetlistFmApi.Model.Users;
 using RestSharp;
 using SetlistFmApi.SearchOptions.Users;
 using SetlistFmApi.SearchResults.Music;
 
 namespace SetlistFmApi
 {
-    public partial class SetlistFmApi
+  public partial class SetlistFmApi
     {
 #if (!__ANDROID__ && !SILVERLIGHT && !WINDOWS_PHONE)
         public User FindUser(string userId)

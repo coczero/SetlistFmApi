@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using RestSharp;
-using SetlistFmApi.Deserialization;
 using SetlistFmApi.Deserialization.Xml;
 using SetlistFmApi.Deserialization.Json;
 

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace SetlistFmApi.SearchOptions.Location
+﻿namespace SetlistFmApi.SearchOptions.Location
 {
-    public class VenueSearchOptions : ListOptionsBase
+  public class VenueSearchOptions : ListOptionsBase
     {
         public string Name { get; set; }
 

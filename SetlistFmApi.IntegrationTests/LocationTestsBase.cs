@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using SetlistFmApi.SearchOptions.Location;
+﻿using SetlistFmApi.SearchOptions.Location;
 using Xunit;
 
 namespace SetlistFmApi.IntegrationTests

@@ -1,16 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using SetlistFmApi.Model;
-using SetlistFmApi.Model.Location;
-using SetlistFmApi.SearchResults.Location;
-using Xunit;
-using RestSharp;
+﻿using RestSharp;
 
 namespace SetlistFmApi.Tests.Deserialization.Xml
 {
-    public class LocationDeserializationTests : LocationDeserializationTestsBase
+  public class LocationDeserializationTests : LocationDeserializationTestsBase
     {
         public override DataFormat Format
         {

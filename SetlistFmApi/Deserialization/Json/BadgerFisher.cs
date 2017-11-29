@@ -1,11 +1,10 @@
-﻿using System.IO;
-using System.Text;
+﻿using System.Text;
 using System.Xml;
 using Newtonsoft.Json.Linq;
 
 namespace SetlistFmApi.Deserialization.Json
 {
-    public class BadgerFisher
+  public class BadgerFisher
     {
         public string JsonToXml(string json)
         {

@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace SetlistFmApi.Model.Location
+﻿namespace SetlistFmApi.Model.Location
 {
-    public class Coordinates
+  public class Coordinates
     {
         public double Long { get; set; }
 

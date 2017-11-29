@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using RestSharp.Serializers;
-using RestSharp.Deserializers;
-
-namespace SetlistFmApi.Model.Music
+﻿namespace SetlistFmApi.Model.Music
 {
-    public class Artist
+  public class Artist
     {
         public string MbId { get; set; }
 

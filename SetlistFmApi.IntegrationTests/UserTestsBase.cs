@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Xunit;
+﻿using Xunit;
 using SetlistFmApi.SearchOptions.Users;
-using RestSharp;
 
 namespace SetlistFmApi.IntegrationTests
 {
-    public abstract class UserTestsBase : IntegrationTestBase
+  public abstract class UserTestsBase : IntegrationTestBase
     {
         [Fact]
         public void FindUser_ById_CanFindUser()

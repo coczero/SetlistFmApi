@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace SetlistFmApi.Model.Music
 {
-    public class Set
+  public class Set
     {
         public int? Encore { get; set; }
 

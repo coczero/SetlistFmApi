@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using RestSharp;
+﻿using RestSharp;
 using SetlistFmApi.Model.Location;
 using SetlistFmApi.SearchOptions.Location;
 using SetlistFmApi.SearchResults.Location;
@@ -9,7 +6,7 @@ using SetlistFmApi.SearchResults.Music;
 
 namespace SetlistFmApi
 {
-    public partial class SetlistFmApi
+  public partial class SetlistFmApi
     {
 #if (!__ANDROID__ && !SILVERLIGHT && !WINDOWS_PHONE)
         public City FindCity(string cityId)

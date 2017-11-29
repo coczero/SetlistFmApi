@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using RestSharp;
+﻿using RestSharp;
 
 namespace SetlistFmApi.IntegrationTests
 {
-    public abstract class IntegrationTestBase
+  public abstract class IntegrationTestBase
     {
         protected SetlistFmApi _client;
 
