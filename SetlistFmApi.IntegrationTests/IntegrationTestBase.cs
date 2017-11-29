@@ -10,7 +10,7 @@ namespace SetlistFmApi.IntegrationTests
 
         public IntegrationTestBase()
         {
-            _client = new SetlistFmApi(null);
+            _client = new SetlistFmApi("23b3fd98-f5c7-49c6-a7d2-28498c0c2283");
             _client.Format = Format;
         }
     }

@@ -7,7 +7,7 @@ namespace SetlistFmApi
 {
   public partial class SetlistFmApi
   {
-    private const string _baseUrl = "http://api.setlist.fm/rest/0.1";
+    private const string _baseUrl = "https://api.setlist.fm/rest/1.0";
     private RestClient _client;
     private readonly string _apiKey;
     private SetlistFmXmlDeserializer _xmlDeserializer;
@@ -52,6 +52,7 @@ namespace SetlistFmApi
 
     private void prepareRequest(RestRequest request)
     {
+      request.AddHeader("x-api-key", _apiKey);
       request.RequestFormat = Format;
       request.DateFormat = "dd-MM-yyyy";
     }
